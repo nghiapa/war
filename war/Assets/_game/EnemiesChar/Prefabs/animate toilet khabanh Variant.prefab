@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1863077891307945070
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8653719598885068355, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: animate toilet khabanh Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: -7970182546501296429, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.078
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.57
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7038582255079647837, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99986386
+      objectReference: {fileID: 0}
+    - target: {fileID: -7038582255079647837, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7038582255079647837, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7038582255079647837, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.016499186
+      objectReference: {fileID: 0}
+    - target: {fileID: -7038582255079647837, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 1.891
+      objectReference: {fileID: 0}
+    - target: {fileID: -6048981460788726192, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: bone_eyeleft2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3898973970159230719, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: 'bone_boncau '
+      objectReference: {fileID: 0}
+    - target: {fileID: -3515443370445958483, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.47339207
+      objectReference: {fileID: 0}
+    - target: {fileID: -3515443370445958483, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25954533
+      objectReference: {fileID: 0}
+    - target: {fileID: -3336382162851596817, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: bone_eyeright
+      objectReference: {fileID: 0}
+    - target: {fileID: -2478916177759144726, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: mouth toilet
+      objectReference: {fileID: 0}
+    - target: {fileID: -1884194122763731517, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1795526513668320343, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: eyes
+      objectReference: {fileID: 0}
+    - target: {fileID: -1071181422236307509, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: bone_napboncau6
+      objectReference: {fileID: 0}
+    - target: {fileID: 284983551356199818, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: Layer 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1545843310670040698, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: bone_eyeleft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133035169680728139, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517970586878736033, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: bone_moth2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3587233381337460757, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653978493505518435, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: bone_neck
+      objectReference: {fileID: 0}
+    - target: {fileID: 4077087804009058873, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: Layer_boncau
+      objectReference: {fileID: 0}
+    - target: {fileID: 4996516466173147893, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774519404911177694, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5645174
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774519404911177694, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1253376
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833651568018936746, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: bone_eyeright2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235712246853546594, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: Layer 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783561340479166185, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: Layer 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828725347492619350, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: bone_napboncau5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899017694756587010, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9430823
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899017694756587010, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7230706
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187159477614842630, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      propertyPath: m_Name
+      value: bone_mouth
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7448189317347082210}
+  m_SourcePrefab: {fileID: 4843985084834002234, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+--- !u!1 &2178955688038211027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: 430d18b5fd941734e8291c8dcadae8c1, type: 3}
+  m_PrefabInstance: {fileID: 1863077891307945070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7448189317347082210
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178955688038211027}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3c133bd7210b53940bc5e0cac1199f93, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
