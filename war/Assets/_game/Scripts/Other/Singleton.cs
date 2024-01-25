@@ -5,8 +5,13 @@ using UnityEngine;
     public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {
         private static T m_Ins;
+    private void Awake()
+    {
 
-        public static T Ins
+        m_Ins = this.gameObject.GetComponent<T>();
+        DontDestroyOnLoad(this);
+    }
+    public static T Ins
         {
             get
             {

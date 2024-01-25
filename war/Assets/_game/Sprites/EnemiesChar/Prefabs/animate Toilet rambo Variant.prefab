@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5914642585192149904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8653719598885068355, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_Name
+      value: animate Toilet rambo Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: -7986189361177264997, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_Name
+      value: shadow
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.66282225
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7143818262520823776, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3898973970159230719, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_Name
+      value: 'bone_boncau '
+      objectReference: {fileID: 0}
+    - target: {fileID: -1845608243877732627, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -1845608243877732627, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: -1153624103637783310, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.03450489
+      objectReference: {fileID: 0}
+    - target: {fileID: -1153624103637783310, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9888842
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074073243300314364, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9996873
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074073243300314364, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074073243300314364, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074073243300314364, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.02500638
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074073243300314364, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.866
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934530503277124301, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 4843985084834002234, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+--- !u!1 &6193232098813809197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: 3ece9eaf0fa2f7643adf7c3f6e93ca5a, type: 3}
+  m_PrefabInstance: {fileID: 5914642585192149904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6260691020062257352
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6193232098813809197}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4aad70f2953c7634588dfe5f0b087907, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

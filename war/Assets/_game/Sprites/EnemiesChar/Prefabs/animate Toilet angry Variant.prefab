@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2137208329394196674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8653719598885068355, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_Name
+      value: animate Toilet angry Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: -7595413430563298066, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_Name
+      value: Layer 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.35
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7452997403582366675, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_Name
+      value: Layer 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -6900818959896083359, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_Name
+      value: Layer 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3898973970159230719, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_Name
+      value: 'bone_boncau '
+      objectReference: {fileID: 0}
+    - target: {fileID: 558580837604631819, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_Name
+      value: Layer 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316818519409218415, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+      propertyPath: m_Name
+      value: bone_boncau
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 4843985084834002234, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+--- !u!1 &1895782867390345599 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: 16e92952dc8ddaf409cad795ea29169a, type: 3}
+  m_PrefabInstance: {fileID: 2137208329394196674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &236313241297166869
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895782867390345599}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4aad70f2953c7634588dfe5f0b087907, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

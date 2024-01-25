@@ -2,18 +2,57 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum ResourceType
+{
+    gold,food
+}
+public enum UnitBehavior
+{
+    atk,
+    def,
+    back
+}
+
+public enum UnitState
+{
+    idle,
+    run,
+    atk,
+    die
+
+}
+public enum UnitTypes
+{
+    worker,
+    melee1,
+    range1,
+    melee2,
+    melee3,
+    melee4,
+    range2,
+    tower,
+    wall
+}
+public enum Team
+{
+    blue, red, netural
+}
 public class Constant 
 {
     public const string ANIM_RUN = "run";
     public const string ANIM_IDLE = "idle";
     public const string ANIM_DIE = "die";
     public const string ANIM_DANCE = "dance";
-    public const string ANIM_ATTACK = "attack";
+    public const string ANIM_ATTACK = "atk";
     public const string ANIM_WIN = "win";
 
     public const string TAG_CHARACTER = "Character";
     public const string TAG_BLOCK = "Block";
 
+    public const string UnitTag = "unit";
+    public const string BaseArea = "basearea";
+    public const string Food = "food";
+    public const string Gold = "gold";
 
 }
 
