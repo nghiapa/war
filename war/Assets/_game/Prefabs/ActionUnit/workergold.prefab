@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5574638897146182652}
   - component: {fileID: 6114383978953107534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: workergold
   m_TagString: unit
   m_Icon: {fileID: 0}

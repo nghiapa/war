@@ -23,6 +23,6 @@ public class BuyUnitBtnSingle : MonoBehaviour
     // Update is called once per frame
     void OnBtnClicked()
     {
-        PlayingSceneController.instance.PlayerBlue.BuyUnit(unitTypes,unit,cost);        
+        PlayingSceneController.instance.PlayerBlue.BuyUnit(unit,cost);        
     }
 }

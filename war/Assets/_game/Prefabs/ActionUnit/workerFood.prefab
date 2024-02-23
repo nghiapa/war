@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -1074584553002127477}
   - component: {fileID: -7425576255135814819}
   - component: {fileID: 9092860124644507722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: workerFood
   m_TagString: unit
   m_Icon: {fileID: 0}

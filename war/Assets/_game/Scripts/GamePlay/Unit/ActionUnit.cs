@@ -18,6 +18,7 @@ public class ActionUnit : Unit
 
     [SerializeField] float atkTimer;
     [SerializeField] float atkRange;
+    [SerializeField] int cost;
 
     [SerializeField] Transform startPos;
     [SerializeField] SerchEnemies serchArea;
@@ -67,7 +68,17 @@ public class ActionUnit : Unit
 
         if (currentEnemy == null)
         {
-            target = enemyTeam.myBase.transform;
+            if (serchArea.enemiesInRange.Count > 0)
+            {
+                target = serchArea.GetNearlestUnitInRange(transform.position, atkRange).transform;
+
+            }
+            else
+            {
+                target = enemyTeam.myBase.transform;
+
+            }
+
             Moving();
             SetEnenmy(serchArea.GetNearlestUnitInRange(transform.position, atkRange));
 
@@ -179,7 +190,7 @@ public class ActionUnit : Unit
     }
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == Constant.UnitTag)
+        if (collision.tag == Constant.UnitTag && currentEnemy==null)
         {
             if (collision.TryGetComponent<ActionUnit>(out ActionUnit unit))
             {

@@ -466,6 +466,10 @@ PrefabInstance:
       value: range1
       objectReference: {fileID: 0}
     - target: {fileID: 1689601530901547448, guid: 104ee4d0d5f6ad947b1faa1af6d3d256, type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 3853407593239208615, guid: f8f1eea304b4bdf46b6e69522c9f8564, type: 3}
+    - target: {fileID: 1689601530901547448, guid: 104ee4d0d5f6ad947b1faa1af6d3d256, type: 3}
       propertyPath: unitTypes
       value: 2
       objectReference: {fileID: 0}
@@ -591,7 +595,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146920885}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -604,7 +608,7 @@ Transform:
   - {fileID: 1889380632}
   - {fileID: 1686464331}
   - {fileID: 1412753780}
-  m_Father: {fileID: 1913277800}
+  m_Father: {fileID: 201937550}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &201937548
@@ -642,7 +646,7 @@ MonoBehaviour:
   team: 0
   ArmyCurrentState: 1
   AllUnit:
-  - {fileID: 0}
+  - {fileID: 856188117}
   defPos:
   - {fileID: 645934617}
   - {fileID: 454340089}
@@ -657,7 +661,7 @@ MonoBehaviour:
   - {fileID: 808508312}
   foods:
   - {fileID: 1398768074}
-  myBase: {fileID: 0}
+  myBase: {fileID: 856188117}
   enemyTeam: {fileID: 0}
 --- !u!4 &201937550
 Transform:
@@ -673,6 +677,7 @@ Transform:
   m_Children:
   - {fileID: 856188116}
   - {fileID: 520423868}
+  - {fileID: 146920886}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -969,6 +974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 337514437}
   - component: {fileID: 337514436}
+  - component: {fileID: 337514438}
   m_Layer: 0
   m_Name: playerred
   m_TagString: Untagged
@@ -990,12 +996,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodCount: 0
   goldCount: 0
-  team: 0
+  team: 1
   ArmyCurrentState: 1
   AllUnit:
   - {fileID: 702520193}
-  defPos: []
-  backPos: {fileID: 0}
+  defPos:
+  - {fileID: 1924978180}
+  - {fileID: 1982383403}
+  - {fileID: 1289850312}
+  - {fileID: 1466312931}
+  - {fileID: 1547375986}
+  - {fileID: 321206996}
+  - {fileID: 226283}
+  - {fileID: 567627877}
+  backPos: {fileID: 1392030094}
   goldMines: []
   foods: []
   myBase: {fileID: 702520193}
@@ -1013,9 +1027,35 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 702520192}
+  - {fileID: 343658895}
+  - {fileID: 1392030094}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &337514438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337514435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e4fe0f18878b647930cc98a8f74747, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRed: {fileID: 337514436}
+  allUnit:
+  - {fileID: 3853407593239208615, guid: 71f982d212358a44da551983bc8a883d, type: 3}
+  - {fileID: 3853407593239208615, guid: e83c7bd6233d2dd4190b839bd7b6b42f, type: 3}
+  - {fileID: 3853407593239208615, guid: 3fe618f48d29ce347b40e43395c9528f, type: 3}
+  - {fileID: 3853407593239208615, guid: f8f1eea304b4bdf46b6e69522c9f8564, type: 3}
+  - {fileID: 3853407593239208615, guid: ad9fab242f299da4698a1fb8dc3d379c, type: 3}
+  - {fileID: 3853407593239208615, guid: 9cf670ed4a9a054498713637d324e6c5, type: 3}
+  behaviorTimer: 0
+  actionTimer: 0
+  timeEachAction: 3
+  timeEachChangeBehavior: 3
 --- !u!1 &343658894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,8 +1079,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343658894}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 51.7, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.959999, y: 4.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1052,8 +1092,8 @@ Transform:
   - {fileID: 321206996}
   - {fileID: 226283}
   - {fileID: 567627877}
-  m_Father: {fileID: 1913277800}
-  m_RootOrder: 3
+  m_Father: {fileID: 337514437}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &388327253
 GameObject:
@@ -1433,6 +1473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: melee2
       objectReference: {fileID: 0}
+    - target: {fileID: 1689601530901547448, guid: 104ee4d0d5f6ad947b1faa1af6d3d256, type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 3853407593239208615, guid: ad9fab242f299da4698a1fb8dc3d379c, type: 3}
     - target: {fileID: 1689601530901547448, guid: 104ee4d0d5f6ad947b1faa1af6d3d256, type: 3}
       propertyPath: unitTypes
       value: 3
@@ -2073,6 +2117,10 @@ PrefabInstance:
       value: melee4
       objectReference: {fileID: 0}
     - target: {fileID: 1689601530901547448, guid: 104ee4d0d5f6ad947b1faa1af6d3d256, type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 3853407593239208615, guid: 3fe618f48d29ce347b40e43395c9528f, type: 3}
+    - target: {fileID: 1689601530901547448, guid: 104ee4d0d5f6ad947b1faa1af6d3d256, type: 3}
       propertyPath: unitTypes
       value: 5
       objectReference: {fileID: 0}
@@ -2303,6 +2351,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 343658895}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1392030093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1392030094}
+  m_Layer: 0
+  m_Name: backpos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1392030094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392030093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.3, y: 1.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 337514437}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1398768072
@@ -3062,6 +3141,10 @@ PrefabInstance:
       value: rang2
       objectReference: {fileID: 0}
     - target: {fileID: 1689601530901547448, guid: 104ee4d0d5f6ad947b1faa1af6d3d256, type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 3853407593239208615, guid: 9cf670ed4a9a054498713637d324e6c5, type: 3}
+    - target: {fileID: 1689601530901547448, guid: 104ee4d0d5f6ad947b1faa1af6d3d256, type: 3}
       propertyPath: unitTypes
       value: 6
       objectReference: {fileID: 0}
@@ -3207,6 +3290,10 @@ PrefabInstance:
       value: melee3
       objectReference: {fileID: 0}
     - target: {fileID: 1689601530901547448, guid: 104ee4d0d5f6ad947b1faa1af6d3d256, type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 3853407593239208615, guid: e83c7bd6233d2dd4190b839bd7b6b42f, type: 3}
+    - target: {fileID: 1689601530901547448, guid: 104ee4d0d5f6ad947b1faa1af6d3d256, type: 3}
       propertyPath: unitTypes
       value: 4
       objectReference: {fileID: 0}
@@ -3339,8 +3426,6 @@ Transform:
   m_Children:
   - {fileID: 102828977}
   - {fileID: 652217215}
-  - {fileID: 146920886}
-  - {fileID: 343658895}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -47,13 +47,15 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    public void BuyUnit(UnitTypes types, Unit unit,int cost)
+    public void BuyUnit(Unit unit,int cost)
     {
         Unit u = Instantiate(unit);
         u.transform.SetParent(this.transform);
 
         u.transform.position = backPos.position;
         u.SetTeam(this,enemyTeam);
+
+        AllUnit.Add(u);
     }
 
     public void ChangeArmyState(UnitBehavior state)
